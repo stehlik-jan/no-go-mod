@@ -1,4 +1,4 @@
-package printer
+package printer // import "github.com/stehlik-jan/go-printer"
 
 import "fmt"
 
