@@ -1,16 +1,12 @@
-package printer
+package public_printer
 
 import (
 	"fmt"
-
-	nestedDep "github.com/stehlik-jan/go-nested-dep"
 )
 
 func Hello() int {
-	printerMessage := "Simple message"
+	printerMessage := "Simple message from public repo"
 	bytes_printed, _ := fmt.Print(printerMessage)
-
-	nestedDep.Diff(printerMessage)
 
     return bytes_printed
 }
